@@ -1,0 +1,31 @@
+[PS COLOR CODES]
+
+Nuansa Warna : Coklat + Putih
+Untuk Button / Komponen lain : Coklat lain
+Text : Black, Grey
+
+Coklat
+1. Main   : #826C54
+2. Terang : #8C543B
+
+Coklat lain (opsional)
+Dari gelap ke terang
+1. #7A6D39
+2. #91895D
+3. #B8AB74
+4. #D6CB95
+
+Putih
+1. Main : #F4F3EF
+2. Pure : #FFFFFF
+
+Black
+1. Main : #393939
+2. Dark : #242424
+3. Light : #3E3E3E
+2. Pure : #000000
+
+Grey
+1. Main     : #4C4C4C
+2. Light    : #E7E7E7
+3. Lightest : #EAEAEA
