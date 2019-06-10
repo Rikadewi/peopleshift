@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+}
+
+/* Font */
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../font/Montserrat-Regular.otf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../font/Montserrat-Light.otf");
+}
+@font-face {
+    font-family: "MontserratAlternates-Regular";
+    src: url("../font/MontserratAlternates-Regular.otf");
+}
+@font-face {
+    font-family: "MontserratAlternates-Light";
+    src: url("../font/MontserratAlternates-Light.otf");
+}
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../font/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../font/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: "TitilliumWeb-Regular";
+    src: url("../font/TitilliumWeb-Regular.ttf");
+}
+@font-face {
+    font-family: "TitilliumWeb-Light";
+    src: url("../font/TitilliumWeb-Light.ttf");
+}
+.font1{
+    font-family: Montserrat-Regular;
+}
+.font1-thin{
+    font-family: Montserrat-Light;
+}
+.font2{
+    font-family: MontserratAlternates-Regular;
+}
+.font2-thin{
+    font-family: MontserratAlternates-Light;
+}
+.font3{
+    font-family: Raleway-Regular;
+}
+.font3-thin{
+    font-family: Raleway-Light;
+}
+.font4{
+    font-family: TitilliumWeb-Regular;
+}
+.font4-thin{
+    font-family: TitilliumWeb-Light;
+}
+
+/* Menu */
+#menu {
+    height: 5vh;
+    position: fixed;
+    font-family: Montserrat-Regular;
+    color: white;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu .filler {
+    flex: 1;
+}
+#menu > div {
+    flex: 2;
+    text-align: center;
+}
+.logo img{
+    height: 3vh;
+    margin: -2px;
+}
+
+/* Home */
+section, .fullpage {
+    height: 100vh;
+    width: 100vw;
+}
+img {
+    position: absolute;
+}
+.background {
+    background-image: url('../img/background/learning.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.black-background {
+    background: rgba(0, 0, 0, 0.7);
+}
+.content {
+    position: absolute;
+    height: 50vh;
+    color: white;
+    display: flex;
+    width: 70vw;
+}
+.white-background {
+    background-color: white;
+}
+.brown-background {
+    background-color: #B8AB74;
+}
+#home .brown-background {
+    height: 40vh;
+    width: 20px;
+    margin: 4em;
+}
+h1 {
+    font-family: Raleway-Regular;
+    font-size: 4em;
+}
+#home h1 {
+    margin-right:17vw;
+}
+u {
+    text-decoration: none;
+    margin-top: 10px;
+    border-bottom: 5px solid #91895D;
+}
+#home i {
+    color: #B8AB74;
+    font-size: 6em;
+    bottom: 2px;
+    position: absolute;
+}
