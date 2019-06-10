@@ -8,6 +8,8 @@ Coklat
 1. Main   : #826C54
 2. Terang : #8C543B
 
+Compro: #9A5F41
+     
 Coklat lain (opsional)
 Dari gelap ke terang
 1. #7A6D39
