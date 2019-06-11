@@ -385,8 +385,6 @@ section#team {
 }
 .grid-container {
     max-width: 820px;
-}
-#team .grid-container {
     width: 820px;
 }
 #team h3, #team h4 {
@@ -406,4 +404,12 @@ section#team {
 /* Client */
 section#client {
     height: auto;
+    padding: 2em;
+}
+.clients {
+    display: flex;
+    max-width: 1100px;
+}
+#client > div {
+    flex-direction: column;
 }
