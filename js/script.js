@@ -34,10 +34,12 @@ $(function() {
         if($(this).scrollTop() > positionAbout) {
             $('#menu').addClass('change-menu');
             $('.logo').attr('src', 'img/logo/logotext-color.png');
+            $('.change-current-menu').addClass('current-menu');
         }
         if($(this).scrollTop() < positionAbout) {
             $('#menu').removeClass('change-menu');
             $('.logo').attr('src', 'img/logo/logotext-white.png');
+            $('.change-current-menu').removeClass('current-menu');
         }
     });
  });

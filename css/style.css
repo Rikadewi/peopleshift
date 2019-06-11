@@ -125,6 +125,9 @@ body {
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.current-menu {
+    color: #8C543B;
+}
 
 /* Home */
 .fullpage {
@@ -166,7 +169,7 @@ h1 {
 #home h1 {
     margin-right:17vw;
 }
-u {
+#home u {
     text-decoration: none;
     margin-top: 10px;
     border-bottom: 5px solid #91895D;
