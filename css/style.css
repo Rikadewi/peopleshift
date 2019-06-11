@@ -177,6 +177,7 @@ u {
     bottom: 2px;
     position: absolute;
 }
+
 /* About */
 section#about {
     height: auto;
@@ -286,9 +287,14 @@ section#workflow {
     width: 60vw;
     max-width: 840px;
     margin-left: 0px;
+    color: #393939;
+}
+#workflow .box:hover {
+    background-color: #B8AB74;
+    color: #F4F3EF;
+    border: 1px solid #B8AB74;
 }
 #workflow h2 {
-    color: #393939;
     font-family: Montserrat-Light;
     margin: 10px;
 }
