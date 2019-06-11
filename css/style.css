@@ -96,6 +96,7 @@ body {
     position: fixed;
     font-family: Montserrat-Regular;
     color: white;
+    width: 100vw;
 }
 .center {
     display: flex;
@@ -115,12 +116,8 @@ body {
 }
 
 /* Home */
-section, .fullpage {
+.fullpage {
     height: 100vh;
-    width: 100vw;
-}
-img {
-    position: absolute;
 }
 .background {
     background-image: url('../img/background/learning.jpg');
@@ -172,7 +169,6 @@ u {
 /* About */
 section#about {
     height: auto;
-    width: 100vw;
 }
 #about > div {
     max-width: 1360px;
@@ -235,15 +231,11 @@ section#vision {
     height: auto;
     text-align: center;
     margin-bottom: 2em;
-    width: 100vw;
 }
-#vision > div {
-    max-width: 820px;
-}
-#vision h1, #vision h2{
+.grid, #vision h2{
     font-family: Raleway-Light;
 }
-#vision h1 {
+h1.grid {
     font-size: 24px;
     color: #D6CB95;
     font-weight: 700;
@@ -252,7 +244,7 @@ section#vision {
     background: url("../img/background/heading-grey.jpg") center repeat-x;
     margin: 0 0 25px 0;
 }
-#vision h1 span {
+h1.grid span {
     background: #FFF;
     padding: 0 20px;
 }
@@ -266,7 +258,6 @@ section#workflow {
     height: auto;
     background-color: #EAEAEA;
     padding: 2vw 0vw;
-    width: 100vw;
 }
 #workflow > div {
     width: 60vw;
@@ -295,6 +286,7 @@ section#workflow {
 #service {
     height: auto;
     flex-direction: column;
+    padding: 3em;
 }
 .typewriter{
     margin: 1em;
@@ -308,7 +300,7 @@ section#workflow {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.05em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(40, end),
+      typing 5s steps(40, end),
       blink-caret 0.75s step-end infinite;
 }
 /* The typing effect */
@@ -336,13 +328,13 @@ section#workflow {
     margin: 1em;
 } 
 .one {
-    background-image: url('../img/services/1.jpg');
+    background-image: url('../img/services/training.jpg');
 }
 .two {
-    background-image: url('../img/services/2.jpg');
+    background-image: url('../img/services/consulting.jpg');
 }
 .three {
-    background-image: url('../img/services/3.jpeg');
+    background-image: url('../img/services/platform.jpeg');
 }
 #service .black-background {
     height: 100%;
@@ -362,4 +354,56 @@ section#workflow {
 }
 #service .box {
     padding: 0px;
+}
+/* Team */
+section#team {
+    height: auto;
+    background-color: #D6CB95;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5em;
+}
+#team > div {
+    flex-direction: column;
+}
+#team h1 {
+    color: #826C54;
+}
+#team h1 span {
+    background: #D6CB95;
+}
+#team .team-container img {
+    border-radius: 1000px;
+}
+.team-container {
+    align-items: flex-start;
+}
+.team-container > div{
+    flex: 1;
+    flex-direction: column;
+    margin: 0.5em;
+}
+.grid-container {
+    max-width: 820px;
+}
+#team .grid-container {
+    width: 820px;
+}
+#team h3, #team h4 {
+    margin: 0px;
+}
+#team h3 {
+    font-family: MontserratAlternates-Light;
+    color: #393939;
+    font-size: 1em;
+    margin-top: 1em;
+}
+#team h4 {
+    font-family: Montserrat-Regular;
+    color: #826C54;
+    font-size: 0.9em;
+}
+/* Client */
+section#client {
+    height: auto;
 }
