@@ -354,6 +354,7 @@ section#workflow {
 }
 #service .box {
     padding: 0px;
+    border: none;
 }
 /* Team */
 section#team {
@@ -401,6 +402,7 @@ section#team {
     color: #826C54;
     font-size: 0.9em;
 }
+
 /* Client */
 section#client {
     height: auto;
@@ -413,3 +415,47 @@ section#client {
 #client > div {
     flex-direction: column;
 }
+
+/* Footer */
+#footer {
+    font-family: Montserrat-Regular;
+    background-color: #393939;
+}
+#footer img {
+    height: 2em;
+    margin-bottom: 1em;
+}
+#footer .shadow-background {
+    display: flex;
+    padding: 2em 25vw;
+    color: white;
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+#footer .shadow-background > div {
+    flex: 1;
+}
+.socmed {
+    display: flex;
+    justify-content: flex-end;
+}
+.socmed i {
+    color: white;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+#footer .fa-phone {
+    margin-right: 6px;
+}
+#footer .fa-envelope {
+    margin-right: 4px;
+}
+/* #footer.background {
+    background-image: url('../img/background/learning-footer.jpg');
+}
+#footer .black-background {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 10px 18px #888888;
+} */
