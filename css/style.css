@@ -172,6 +172,7 @@ u {
 /* About */
 section#about {
     height: auto;
+    width: 100vw;
 }
 #about > div {
     max-width: 1360px;
@@ -234,6 +235,7 @@ section#vision {
     height: auto;
     text-align: center;
     margin-bottom: 2em;
+    width: 100vw;
 }
 #vision > div {
     max-width: 820px;
@@ -264,6 +266,7 @@ section#workflow {
     height: auto;
     background-color: #EAEAEA;
     padding: 2vw 0vw;
+    width: 100vw;
 }
 #workflow > div {
     width: 60vw;
@@ -286,4 +289,77 @@ section#workflow {
     color: #393939;
     font-family: Montserrat-Light;
     margin: 10px;
+}
+
+/* Service */
+#service {
+    height: auto;
+    flex-direction: column;
+}
+.typewriter{
+    margin: 1em;
+}
+.typewriter h2 {
+    font-family: MontserratAlternates-Light;
+    color: #242424;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #D6CB95; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.05em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret 0.75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #D6CB95; }
+}
+.services {
+    display: flex;
+    max-width: 900px;
+}
+.services > div {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+} 
+.one {
+    background-image: url('../img/services/1.jpg');
+}
+.two {
+    background-image: url('../img/services/2.jpg');
+}
+.three {
+    background-image: url('../img/services/3.jpeg');
+}
+#service .black-background {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.services b, .services h2 {
+    display: none;
+}
+.services h1 {
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    font-size: 2em;
+}
+#service .box {
+    padding: 0px;
 }
