@@ -305,7 +305,7 @@ hr {
         height: 6px;
         width: 140px;
     }
-    .grid-container, #vision .grid-container, #team .grid-container  {
+    .grid-container, #vision .grid-container, #team .grid-container, #client .grid-container {
         width: 550px;
     }
 }
@@ -327,7 +327,7 @@ hr {
     hr {
         height: 5px;
     }
-    .grid-container, #vision .grid-container, #team .grid-container {
+    .grid-container, #vision .grid-container, #team .grid-container, #client .grid-container {
         width: 350px;
     }
     .number, #about h2 {
@@ -350,7 +350,7 @@ hr {
     hr {
         width: 100px;
     }
-    .grid-container, #vision .grid-container, #team .grid-container {
+    .grid-container, #vision .grid-container, #team .grid-container, #client .grid-container {
         width: 310px;
     }
 }
@@ -622,6 +622,33 @@ section#team {
     color: #826C54;
     font-size: 0.9em;
 }
+@media only screen and (max-width: 1200px) {
+    #team h3 {
+        font-size: 0.8em;
+    }
+    #team h4 {
+        font-size: 0.8em;
+    }
+    .team-container {
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #team .team-container {
+        flex-wrap: wrap;
+    }
+    .team-container {
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 610px) {
+    #team .team-container {
+        flex-wrap: wrap;
+    }
+    .team-container {
+        width: 90vw;
+    }
+}
 
 /* Client */
 section#client {
@@ -634,6 +661,14 @@ section#client {
 }
 #client > div {
     flex-direction: column;
+}
+.clients img {
+    height: 100px;
+}
+@media only screen and (max-width: 1233px) {    
+    .clients {
+        flex-wrap: wrap;
+    }
 }
 
 /* Footer */
