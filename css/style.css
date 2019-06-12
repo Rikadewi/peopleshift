@@ -280,6 +280,80 @@ hr {
     margin-left: 0px;
     margin-bottom: 30px;
 }
+@media only screen and (max-width: 900px) and (min-width:716px){
+    #about > div > div {
+        margin: 5vw 0 5vw 5vw;
+    }
+    #about > div > div.box-container {
+        margin: 7vw 3vw 5vw 2vw;
+    }
+    .number, #about h2 {
+        font-size: 1.1em;
+    }
+    #about ul {
+        font-size: 0.85em;
+    }
+    .box {
+        padding: 0.7em;
+    }
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    hr {
+        height: 6px;
+        width: 140px;
+    }
+    .grid-container, #vision .grid-container, #team .grid-container  {
+        width: 550px;
+    }
+}
+@media only screen and (max-width: 715px) {
+    #about > div {
+        flex-direction: column;
+    }
+    #about > div > div {
+        margin: 10vw 5vw 0vw 5vw;
+    }
+    #about > div > div.box-container {
+        margin: 2vw 5vw 5vw 5vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    hr {
+        height: 5px;
+    }
+    .grid-container, #vision .grid-container, #team .grid-container {
+        width: 350px;
+    }
+    .number, #about h2 {
+        font-size: 1.1em;
+    }
+    #about ul {
+        font-size: 0.85em;
+    }
+    .box {
+        padding: 0.7em;
+    }
+    #vision .grid-container h2, #vision i {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2em;
+    }
+    hr {
+        width: 100px;
+    }
+    .grid-container, #vision .grid-container, #team .grid-container {
+        width: 310px;
+    }
+}
 
 /* Vision */
 section#vision {
@@ -457,7 +531,6 @@ section#team {
     margin: 0.5em;
 }
 .grid-container {
-    max-width: 820px;
     width: 820px;
 }
 #team h3, #team h4 {
