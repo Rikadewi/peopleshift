@@ -178,7 +178,47 @@ h1 {
     color: #B8AB74;
     font-size: 6em;
     bottom: 2px;
-    position: absolute;
+    margin-top: 80vh;
+}
+@media only screen and (max-width: 1200px) {
+    #home .brown-background {
+        width: 15px;
+    }
+    #home h1 {  
+        font-size: 3em;
+    }
+    #home i {
+        font-size: 5em;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .content {
+        width: 90vw;
+    }
+    #home .brown-background {
+        height: 30vh;
+    }
+}
+@media only screen and (max-width: 730px) {
+    #home h1 {  
+        margin-right: 0px;
+    }
+    .logo {
+        display: none;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #home h1 {  
+        font-size: 2.5em;
+    }
+    #home .brown-background {
+        margin: 1em;
+        height: 25vh;
+        width: 13px;
+    }
+    .filler {
+        display: none;
+    }
 }
 
 /* About */
