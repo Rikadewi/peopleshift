@@ -415,6 +415,31 @@ section#workflow {
     font-family: Montserrat-Light;
     margin: 10px;
 }
+@media only screen and (max-width: 900px) {
+    #workflow > div {
+        width: 70vw;
+    }
+    #workflow h2 {
+        font-size: 1.2em;
+    }
+    #workflow b {
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #workflow > div {
+        width: 80vw;
+    }
+    #workflow h2 {
+        font-size: 1em;
+    }
+    #workflow b {
+        font-size: 1.2em;
+    }
+    #workflow .box {
+        width: 70vw;
+    }
+}
 
 /* Service */
 #service {
