@@ -527,6 +527,56 @@ section#workflow {
     padding: 0px;
     border: none;
 }
+@media only screen and (max-width: 900px) {
+    #service h2 {
+        font-size: 1.2em;
+    }
+    #service .box h1 {
+        font-size: 1.5em;
+    }
+    #service {
+        padding: 2em 0em;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .services > div {
+        width: 60vw;
+    }
+    .typewriter h2 {
+        letter-spacing: 0em;
+        font-size: 1.1em;
+    }
+    #service .title {
+        padding: 0em 2em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .typewriter h2 {
+        white-space: normal;
+        border-right: none;
+        letter-spacing: 0em;
+        animation: none;
+    }
+    .typewriter {
+        padding: 0em 2em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .services > div {
+        width: 75vw;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #service .black-background h2 {
+        font-size: 0.5em;
+    }
+}
+
 /* Team */
 section#team {
     height: auto;
