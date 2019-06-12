@@ -117,8 +117,12 @@ body {
     height: 3vh;
     margin: -2px;
 }
-.home-menu {
+.home-menu, .home-menu a {
     color: white;
+    text-decoration: none;
+}
+.change-menu a {
+    color: black;
 }
 .change-menu {
     background-color: white;
