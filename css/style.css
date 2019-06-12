@@ -684,6 +684,10 @@ section#client {
     display: flex;
     padding: 2em 25vw;
     color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 2em 4em;
+    flex-wrap: wrap;
 }
 #footer a {
     color: white;
@@ -706,6 +710,14 @@ section#client {
 }
 #footer .fa-envelope {
     margin-right: 4px;
+}
+@media only screen and (max-width: 550px) {    
+    #footer .shadow-background {
+        flex-direction: column;
+    }
+    .socmed {
+        justify-content: flex-start;
+    }
 }
 /* #footer.background {
     background-image: url('../img/background/learning-footer.jpg');
