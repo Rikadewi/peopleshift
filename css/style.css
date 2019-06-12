@@ -3,6 +3,7 @@ html {
 }
 body {
     margin: 0px;
+    min-height: 100vh;
 }
 
 /* Font */
@@ -684,6 +685,9 @@ section#client {
 #footer {
     font-family: Montserrat-Regular;
     background-color: #393939;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 #footer img {
     height: 2em;
@@ -728,10 +732,25 @@ section#client {
         justify-content: flex-start;
     }
 }
-/* #footer.background {
-    background-image: url('../img/background/learning-footer.jpg');
+
+/* PDF Viewer */
+#pdf {
+    flex-direction: column;
+    padding: 3em;
 }
-#footer .black-background {
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 10px 18px #888888;
-} */
+#pdf iframe {
+    border:1px solid #CCC; 
+    border-width:1px; 
+    margin-bottom:5px; 
+    max-width: 800px; /* Sesuaikan dengan rasio pdf*/
+    max-height: 600px; /* Sesuaikan dengan rasio pdf*/
+    width: 80vw; /* Sesuaikan dengan rasio pdf*/
+    height: 50vw; /* Sesuaikan dengan rasio pdf*/
+}
+#pdf h2 {
+    max-width: 800px;
+    font-family: Raleway-Light;
+    font-size: 1.1em;
+    color: #393939;
+    width: 70vw;
+}
