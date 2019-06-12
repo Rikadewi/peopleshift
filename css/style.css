@@ -184,6 +184,9 @@ h1 {
     bottom: 2px;
     margin-top: 80vh;
 }
+#home i:hover {
+    color: #7A6D39;
+}
 @media only screen and (max-width: 1200px) {
     #home .brown-background {
         width: 15px;
@@ -490,6 +493,9 @@ section#workflow {
     justify-content: space-between;
     margin: 1em;
 } 
+#service a {
+    text-decoration: none;
+}
 .one {
     background-image: url('../img/services/training.jpg');
 }
@@ -501,7 +507,6 @@ section#workflow {
 }
 #service .black-background {
     height: 100%;
-    width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     flex-direction: column;
