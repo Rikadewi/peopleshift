@@ -834,13 +834,13 @@ section#hours-27 {
     display: flex;
     background-color: #EAEAEA;
     padding: 2em 0;
-    margin-left: 2em;
+    margin-left: 5vw;
 }
 #hours-27 > div {
     flex: 1;
 }
 .content-half {
-    padding: 2em 2vw 2em 10vw;
+    padding: 2em 2em 2em 10vw;
 }
 .content-half h2 {
     color: #8C543B;
@@ -860,6 +860,7 @@ section#hours-27 {
     background-size: cover;
     background-image: url('../img/training/27-hour.jpg');   
     height: 50vw;
+    max-height: 700px;
 }
 
 /* pln-executive */
@@ -871,6 +872,14 @@ section#hours-27 {
 }
 #pln-executive .three {
     background-image: url('../img/training/pln-executive-3.jpg');
+}
+#pln-executive .image-container > div {
+    width: 49vw;
+}
+#pln-executive .title-project h2 {
+    color: #B8AB74;
+    font-family: Raleway-Regular;
+    font-size: 1.5em;
 }
 
 /* pln executive content */
