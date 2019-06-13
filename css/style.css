@@ -765,7 +765,7 @@ section.project-template {
     display: flex;
     height: 50vh;
     justify-content: space-between;
-    
+    min-height: 38vw;
 }
 .image-container > div {
     background-position: center;
@@ -832,15 +832,34 @@ section#bukalapak {
 /* 27 hours */
 section#hours-27 {
     display: flex;
-    background-color: gray;
+    background-color: #EAEAEA;
+    padding: 2em 0;
+    margin-left: 2em;
 }
 #hours-27 > div {
     flex: 1;
+}
+.content-half {
+    padding: 2em 2vw 2em 10vw;
+}
+.content-half h2 {
+    color: #8C543B;
+    font-family: Raleway-Light;
+    font-size: 2em;
+    margin: 0px;
+}
+.content-half h3 {
+    font-size: 1em;
+    font-family: Raleway-Light;
+}
+.content-half > div {
+    max-width: 450px;
 }
 .image-half {
     background-position: center;
     background-size: cover;
     background-image: url('../img/training/27-hour.jpg');   
+    height: 50vw;
 }
 
 /* pln-executive */
