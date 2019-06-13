@@ -497,13 +497,13 @@ section#workflow {
 #service a {
     text-decoration: none;
 }
-.one {
+#service .one {
     background-image: url('../img/services/training.jpg');
 }
-.two {
+#service .two {
     background-image: url('../img/services/consulting.jpg');
 }
-.three {
+#service .three {
     background-image: url('../img/services/platform.jpeg');
 }
 #service .black-background {
