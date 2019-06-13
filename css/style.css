@@ -228,6 +228,9 @@ h1 {
     .filler {
         display: none;
     }
+    #menu {
+        font-size: 0.9em;
+    }
 }
 
 /* About */
