@@ -747,9 +747,9 @@ section#client {
     border-width:1px; 
     margin-bottom:5px; 
     max-width: 800px; /* Sesuaikan dengan rasio pdf*/
-    max-height: 600px; /* Sesuaikan dengan rasio pdf*/
+    max-height: 450px; /* Sesuaikan dengan rasio pdf*/
     width: 80vw; /* Sesuaikan dengan rasio pdf*/
-    height: 50vw; /* Sesuaikan dengan rasio pdf*/
+    height: 45vw; /* Sesuaikan dengan rasio pdf*/
 }
 #pdf h2 {
     max-width: 800px;
