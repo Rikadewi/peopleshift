@@ -757,6 +757,8 @@ section#client {
 }
 
 /* Product Detail */
+
+/* Project Template */
 section.project-template {
     display: flex;
     flex-direction: column;
@@ -804,6 +806,51 @@ section.project-template {
     font-family: Raleway-Light;
     font-size: 1em;
 }
+@media only screen and (max-width: 900px) {
+    .project-template h1 {
+        font-size: 1.5em;
+    }
+    .description-project h2 {
+        font-size: 1.2em;
+    }
+    .description-project h3 {
+        font-size: 0.8em;
+    }
+    .project-template hr {
+        margin-bottom: 0px;
+    }
+    .title-project hr {
+        height: 4px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .text-container {
+        flex-direction: column;
+    }
+    .description-project {
+        max-width: 60vw;
+        padding-left: 15vw;
+    }
+    .project-template h1 {
+        margin-bottom: 0px;
+    }
+    .project-template .three {
+        display: none;
+    }
+    .image-container > div {
+        width: 48vw;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .project-template .two {
+        display: none;
+    }
+    .image-container > div {
+        width: 100vw;
+    }
+}
+
 /* Bukalapak */
 section#bukalapak {
     background-color: #EAEAEA;
