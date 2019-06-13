@@ -754,3 +754,106 @@ section#client {
     color: #393939;
     width: 70vw;
 }
+
+/* Product Detail */
+section.project-template {
+    display: flex;
+    flex-direction: column;
+}
+.image-container {
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+    
+}
+.image-container > div {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    flex: 1;
+}
+.text-container {
+    display: flex;
+}
+.text-container > div {
+    flex: 1;
+}
+
+/* Bukalapak */
+#bukalapak .one {
+    background-image: url('../img/training/bukalapak-1.jpg');
+}
+#bukalapak .two {
+    background-image: url('../img/training/bukalapak-2.jpeg');
+}
+#bukalapak .three {
+    background-image: url('../img/training/bukalapak-3.jpg');
+}
+
+/* pln */
+#pln .one {
+    background-image: url('../img/training/pln-1.jpg');
+}
+#pln .two {
+    background-image: url('../img/training/pln-2.jpg');
+}
+#pln .three {
+    background-image: url('../img/training/pln-3.jpg');
+}
+
+/* 27 hours */
+section#hours-27 {
+    display: flex;
+    background-color: gray;
+}
+#hours-27 > div {
+    flex: 1;
+}
+.image-half {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/training/27-hour.jpg');   
+}
+
+/* pln-executive */
+#pln-executive .one {
+    background-image: url('../img/training/pln-executive-1.jpg');
+}
+#pln-executive .two {
+    background-image: url('../img/training/pln-executive-2.jpg');
+}
+#pln-executive .three {
+    background-image: url('../img/training/pln-executive-3.jpg');
+}
+
+/* pln executive content */
+section#pln-executive-content {
+    display: flex;
+    flex-direction: column;
+}
+#pln-executive-content > div {
+    flex: 1;
+}
+.table-content {
+    display: flex;
+}
+.table-content-title {
+    flex: 1;
+}
+.table-content-description {
+    flex: 2;
+}
+.div-image {
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+}
+#pln-executive-content .one {
+    background-image: url('../img/training/ee-1.png');
+}
+#pln-executive-content .two {
+    background-image: url('../img/training/ee-2.jpg');
+}
+#pln-executive-content .three {
+    background-image: url('../img/training/ee-3.jpg');
+}
