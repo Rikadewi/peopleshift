@@ -886,9 +886,15 @@ section#hours-27 {
 section#pln-executive-content {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
 }
-#pln-executive-content > div {
+.pln-executive-wrapper > div {
     flex: 1;
+}
+.pln-executive-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
 }
 .table-content {
     display: flex;
@@ -897,19 +903,22 @@ section#pln-executive-content {
     flex: 1;
 }
 .table-content-description {
-    flex: 2;
+    flex: 3;
 }
-.div-image {
-    background-position: center;
-    background-size: cover;
-    height: 10vh;
+#pln-executive-content h1 {
+    font-size: 1.2em;
 }
-#pln-executive-content .one {
-    background-image: url('../img/training/ee-1.png');
+.table-content h2 {
+    color: #826C54;
+    font-family: Raleway-Regular;
+    font-size: 1.2em;
 }
-#pln-executive-content .two {
-    background-image: url('../img/training/ee-2.jpg');
+.table-content h3 {
+    color: #393939;
+    font-family: Raleway-Light;
+    font-size: 1em;
 }
-#pln-executive-content .three {
-    background-image: url('../img/training/ee-3.jpg');
+.table-content > div {
+    border-top: 2px solid rgba(184, 171, 116, 0.59);
+    margin: 0em 2em;
 }
