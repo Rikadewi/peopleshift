@@ -1014,6 +1014,7 @@ section#pln-executive-content {
     display: flex;
     flex-direction: column;
     max-width: 900px;
+    padding: 0 2em;
 }
 .table-content {
     display: flex;
@@ -1040,4 +1041,20 @@ section#pln-executive-content {
 .table-content > div {
     border-top: 2px solid rgba(184, 171, 116, 0.59);
     margin: 0em 2em;
+}
+@media only screen and (max-width: 750px) {
+    .table-content > div {
+        margin: 0em 1em;
+    }
+    .table-content h2 {
+        font-size: 1em;
+    }
+    .table-content h3 {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .pln-executive-wrapper {
+        padding: 0px;
+    }
 }
