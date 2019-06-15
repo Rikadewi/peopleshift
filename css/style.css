@@ -492,7 +492,6 @@ section#workflow {
     flex: 1;
     background-position: center;
     background-size: cover;
-    width: 10vw;
     height: 40vh;
     display: flex;
     justify-content: space-between;
