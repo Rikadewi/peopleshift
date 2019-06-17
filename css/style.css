@@ -103,6 +103,15 @@ body {
     width: 100vw;
     z-index: 9;
 }
+#menu .hover-menu u {
+    text-decoration: none;
+    margin-top: 10px;
+    border-bottom: 2px solid #91895D;
+}
+#menu.change-menu .hover-menu u, #menu u {
+    text-decoration: none;
+    border-bottom: none;
+}
 .center {
     display: flex;
     align-items: center;
@@ -126,6 +135,12 @@ body {
 }
 .change-menu a {
     color: #393939;
+}
+#menu a.blur-hover-menu {
+    color: rgba(255,255,255,0.7);
+}
+#menu.change-menu a.blur-hover-menu {
+    color: rgba(0,0,0,0.4);
 }
 .change-menu {
     background-color: white;

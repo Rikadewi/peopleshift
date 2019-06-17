@@ -29,7 +29,7 @@ $(function() {
     });
 
     // Change menubar 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         var positionAbout = $('#about').offset().top - 1;
         if($(this).scrollTop() > positionAbout) {
             $('#menu').addClass('change-menu');
@@ -42,5 +42,17 @@ $(function() {
             $('.change-current-menu').removeClass('current-menu');
         }
     });
+
+    // Hover menu bar
+    $('.link-menu').mouseover(function(){
+        $(this).addClass('hover-menu');
+        $('.link-menu').addClass('blur-hover-menu');
+        $(this).removeClass('blur-hover-menu');
+    });
+    $('.link-menu').mouseleave(function(){
+        $(this).removeClass('hover-menu');
+        $('.link-menu').removeClass('blur-hover-menu');
+    });
+    
  });
  
