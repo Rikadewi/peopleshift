@@ -188,8 +188,10 @@ body {
     margin: 4em;
 }
 h1 {
+    color: #8C543B;
     font-family: Raleway-Regular;
-    font-size: 4em;
+    margin: 20px 0px;
+    font-size: 2.8em;
 }
 #home h1 {
     margin-right:17vw;
@@ -270,12 +272,6 @@ section#about {
 #about ul {
     color: #826C54;
     font-family: MontserratAlternates-Regular;
-}
-h1 {
-    color: #8C543B;
-    font-family: Raleway-Regular;
-    margin: 20px 0px;
-    font-size: 3em;
 }
 #about h2 {
     margin: 0px;
@@ -880,15 +876,12 @@ section.project-template {
 }
 
 /* Bukalapak */
-#training section.head-title > div{
+section.head-title > div{
     max-width:1300px;
     flex: 1;
 }
-#training section.head-title hr {
+section.head-title hr {
     margin-bottom: 0px;
-}
-section#bukalapak, #training section.head-title {
-    background-color: #EAEAEA;
 }
 #bukalapak .one {
     background-image: url('../img/training/bukalapak-1.jpg');
