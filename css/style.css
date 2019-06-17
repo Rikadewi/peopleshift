@@ -779,6 +779,9 @@ section#client {
 }
 
 /* Product Detail */
+.head-title {
+    padding: 3em 3em 0em 3em;
+}
 
 /* Project Template */
 section.project-template {
@@ -877,7 +880,14 @@ section.project-template {
 }
 
 /* Bukalapak */
-section#bukalapak {
+#training section.head-title > div{
+    max-width:1300px;
+    flex: 1;
+}
+#training section.head-title hr {
+    margin-bottom: 0px;
+}
+section#bukalapak, #training section.head-title {
     background-color: #EAEAEA;
 }
 #bukalapak .one {
