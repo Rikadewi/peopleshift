@@ -104,7 +104,6 @@ body {
     position: fixed;
     font-family: Montserrat-Regular;
     width: 100vw;
-    z-index: 9;
 }
 #menu .hover-menu u {
     text-decoration: none;
@@ -159,6 +158,81 @@ body {
 }
 .current-menu {
     color: #8C543B;
+}
+
+/* Collapsed Menu */
+.menu-burger img {
+    height: 2em;
+    margin: -7px;
+}
+.menu-burger {
+    display: none;
+}
+#collapsed.collapse.in {
+    display: flex;
+}
+#collapsed.collapse {
+    display: none;
+}
+section#collapsed {
+    background-color: #EAEAEA;
+    padding: 2vw 0vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 6;
+}
+#collapsed > div {
+    padding: 2em;
+    width: 90vw;
+}
+#collapsed b {
+    color: #8C543B;
+    font-size: 1.4em;
+    font-family: Montserrat-Regular;
+}
+#collapsed .box {
+    padding: 0em 1em;
+    margin: 1em;
+    background-color: white;
+    max-width: 840px;
+    margin-left: 0px;
+}
+#collapsed .box.current-collapsed-menu {
+    background-color: #B8AB74;
+    border: 1px solid #B8AB74;
+}
+#collapsed .box.current-collapsed-menu h2 {
+    color: #F4F3EF;
+}
+#collapsed a:hover {
+    text-decoration: none;
+}
+#collapsed h2 {
+    font-family: Montserrat-Light;
+    margin: 10px;
+    font-size: 2em;
+    color: #393939;
+    text-decoration: none;
+}
+#collapsed #menu {
+    z-index: 9;
+    top: 0px;
+}
+@media only screen and (max-width: 730px) {
+    .home-menu > div {
+        display: none;
+    }
+    #menu .logo, #menu .menu-burger, #menu .filler-left {
+        display: inline;
+    }
+    #menu .filler-left {
+        flex: 0.5;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #collapsed h2 {
+        font-size: 1.5em;
+    }
 }
 
 /* Home */
@@ -237,14 +311,8 @@ h1 {
     }
 }
 @media only screen and (max-width: 730px) {
-    #menu {
-        height: 5vh;
-    }
     #home h1 {  
         margin-right: 0px;
-    }
-    .logo {
-        display: none;
     }
 }
 @media only screen and (max-width: 530px) {
@@ -255,12 +323,6 @@ h1 {
         margin: 1em;
         height: 25vh;
         width: 13px;
-    }
-    .filler {
-        display: none;
-    }
-    #menu {
-        font-size: 0.9em;
     }
 }
 
@@ -786,7 +848,7 @@ section#client {
 
 /* Product Detail */
 .head-title {
-    padding: 3em 3em 0em 3em;
+    padding: 3em 3em 1em 3em;
 }
 
 /* Project Template */

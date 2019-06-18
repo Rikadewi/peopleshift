@@ -5,22 +5,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="We are human capital expert in digital area." data-rdm="true">
-
         <link rel="icon" type="image/ico" href="img/logo/logo.png" />
-        <!-- Style -->
-        <!-- Font Awesome -->
+        <!-- Vendor -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Style -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>        
         <section id="menu" class="center fullpage home-menu change-menu">
-            <div class="filler"></div>
-            <div class="logo center"><a href="index.html"><img class="logo" src="img/logo/logotext-color.png" /></a></div>
+            <div class="filler-left"></div>
+            <div class="logo center"><a href="index.html"><img class="logo-img" src="img/logo/logotext-color.png" /></a></div>
             <div><a class="link-menu" href="index.html">Home</a></div>
             <div><a class="link-menu" href="training.html">Training</a></div>
             <div><a class="link-menu" href="consulting.html">Consulting</a></div>
             <div><b class="current-menu">Platform</b></div>
             <div class="filler"></div>
+            <div class = "menu-burger" data-toggle = "collapse" data-target = "#collapsed">
+                <img class="menu-burger-img" src = "img/icon/burger-black.png">
+            </div>
+        </section>
+        <section id = "collapsed" class = "collapse center fullpage" data-toggle = "collapse" data-target = "#collapsed">
+            <section id="menu" class="center fullpage home-menu change-menu">
+                <div class="filler filler-left"></div>
+                <div class="logo center"><img src="img/logo/logotext-color.png" /></div>
+                <div class = "menu-burger" data-toggle = "collapse" data-target = "#collapsed">
+                    <img src = "img/icon/burger-black.png">
+                </div>
+            </section>
+            <div>
+                <div>
+                    <div class="box"><a href="index.html"><h2><b>01</b> Home</h2></a></div>
+                    <div class="box"><a href="training.html"><h2><b>02</b> Training</h2></a></div>
+                    <div class="box"><a href="consulting.html"><h2><b>03</b> Consulting</h2></a></div>
+                    <div class="box current-collapsed-menu"><h2><b>04</b> Platform</h2></div>
+                </div>
+            </div>
         </section>
         <section id="pdf" class="center">
             <div>
@@ -54,8 +74,9 @@
                 </div>
             </div>
         </footer>
-        <!-- JQuery -->
+        <!-- Vendor -->
         <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <!-- Script -->
         <script src="js/script.js"></script>
     </body>

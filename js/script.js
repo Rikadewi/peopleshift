@@ -31,18 +31,19 @@ $(function() {
     // Change menubar 
     $(window).scroll(function() {
         var positionAbout = $('#about').offset().top - 1;
-        if($(this).scrollTop() > positionAbout) {
-            $('#menu').addClass('change-menu');
-            $('.logo').attr('src', 'img/logo/logotext-color.png');
-            $('.change-current-menu').addClass('current-menu');
-        }
         if($(this).scrollTop() < positionAbout) {
             $('#menu').removeClass('change-menu');
-            $('.logo').attr('src', 'img/logo/logotext-white.png');
+            $('.logo-img').attr('src', 'img/logo/logotext-white.png');
+            $('.menu-burger-img').attr('src', 'img/icon/burger-white.png');
             $('.change-current-menu').removeClass('current-menu');
+        } else {
+            $('#menu').addClass('change-menu');
+            $('.logo-img').attr('src', 'img/logo/logotext-color.png');
+            $('.menu-burger-img').attr('src', 'img/icon/burger-black.png');
+            $('.change-current-menu').addClass('current-menu');
         }
     });
-
+    
     // Hover menu bar
     $('.link-menu').mouseover(function(){
         $(this).addClass('hover-menu');
