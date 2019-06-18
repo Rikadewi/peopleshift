@@ -161,6 +161,9 @@ body {
 .change-menu > div {
     border-right: 1px solid #393939;
 }
+.change-menu .first-menu {
+    border-left: 1px solid #393939;
+}
 #menu b.current-menu {
     color: #8C543B;
 }
