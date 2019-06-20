@@ -130,8 +130,8 @@ body {
     text-align: center;
     border-right: 1px solid white;
 }
-.first-menu {
-    border-left: 1px solid white;
+div.end-menu, .change-menu div.end-menu {
+    border-right: none;
 }
 #menu div.logo {
     border-right: none;
@@ -166,9 +166,6 @@ body {
 }
 #menu b.current-menu {
     color: #8C543B;
-}
-#menu .filler-left {
-    flex: 0;
 }
 
 /* Collapsed Menu */
@@ -238,11 +235,8 @@ section#collapsed {
     .home-menu > div {
         display: none;
     }
-    #menu .logo, #menu .menu-burger, #menu .filler-left {
+    #menu .logo, #menu .menu-burger {
         display: inline;
-    }
-    #menu .filler-left {
-        flex: 0.5;
     }
 }
 @media only screen and (max-width: 420px) {
