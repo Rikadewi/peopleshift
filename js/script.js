@@ -45,14 +45,8 @@ $(function() {
     });
     
     // Hover menu bar
-    $('.link-menu').mouseover(function(){
-        $(this).addClass('hover-menu');
-        $('.link-menu').addClass('blur-hover-menu');
-        $(this).removeClass('blur-hover-menu');
-    });
-    $('.link-menu').mouseleave(function(){
-        $(this).removeClass('hover-menu');
-        $('.link-menu').removeClass('blur-hover-menu');
+    $('.link-menu').hover(function(){
+        $(this).toggleClass('hover-menu');
     });
     
  });

@@ -141,17 +141,17 @@ div.end-menu, .change-menu div.end-menu {
     margin: -2px;
 }
 .home-menu, .home-menu a {
-    color: white;
+    color: rgba(255,255,255,0.7);
     text-decoration: none;
 }
 .change-menu a {
-    color: #393939;
-}
-#menu a.blur-hover-menu {
-    color: rgba(255,255,255,0.7);
-}
-#menu.change-menu a.blur-hover-menu {
     color: rgba(0,0,0,0.4);
+}
+#menu a:hover {
+    color: white;
+}
+#menu.change-menu a:hover{
+    color: #393939;
 }
 .change-menu {
     background-color: white;
