@@ -795,49 +795,58 @@ section#client {
     position: relative;
     bottom: 0px;
     width: 100%;
+    padding: 2em 1em 1em 1em;
 }
 #footer img {
     height: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 10px;
 }
-#footer .shadow-background {
+#footer .footer-wrapper {
     display: flex;
-    padding: 2em 25vw;
     color: white;
-    max-width: 800px;
-    margin: auto;
-    padding: 2em 4em;
-    flex-wrap: wrap;
+    max-width: 1000px;
+    flex-direction: column
 }
 #footer a {
     color: white;
     text-decoration: none;
 }
-#footer .shadow-background > div {
-    flex: 1;
-}
-.socmed {
-    display: flex;
-    justify-content: flex-end;
-}
 .socmed i {
     color: white;
     padding: 0.5em;
     font-size: 1.5em;
-}
+} 
 #footer .fa-phone {
     margin-right: 6px;
 }
 #footer .fa-envelope {
     margin-right: 4px;
 }
-@media only screen and (max-width: 550px) {    
-    #footer .shadow-background {
-        flex-direction: column;
-    }
-    .socmed {
-        justify-content: flex-start;
-    }
+.footer-content {
+    display: flex;
+    width: 100%;
+    align-content: space-around;
+    max-width: 1000px;
+    padding: 0 2em;
+    flex-wrap: wrap;
+}
+.footer-content > div {
+    min-width: 180px;
+    padding: 1em;
+    flex: 1;
+}
+div.footer-content-main {
+    min-width: 233px;
+    flex: 1;
+}
+.footer-content h3 {
+    margin: 0;  
+}
+.footer-bottom {
+    border-top: 1px solid #E7E7E7;
+    width: 100%;
+    text-align: center;
+    padding: 5px 1.5em;
 }
 
 /* PDF Viewer */
