@@ -790,9 +790,8 @@ section#client {
     font-family: Montserrat-Regular;
     background-color: #393939;
     position: relative;
-    bottom: 0px;
     width: 100%;
-    padding: 2em 1em 1em 1em;
+    padding: 1em 1em 0 1em;
 }
 #footer img {
     height: 2em;
@@ -801,18 +800,32 @@ section#client {
 #footer .footer-wrapper {
     display: flex;
     color: white;
-    max-width: 1000px;
     flex-direction: column
 }
-#footer a {
+#footer .shadow-background {
+    display: flex;
     color: white;
-    text-decoration: none;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+    max-width: 830px;
+}
+#footer .shadow-background > div {
+    flex: 1;
+}
+.socmed {
+    display: flex;
+    justify-content: flex-end;
 }
 .socmed i {
     color: white;
     padding: 0.5em;
     font-size: 1.5em;
-} 
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+}
 #footer .fa-phone {
     margin-right: 6px;
 }
@@ -822,19 +835,14 @@ section#client {
 .footer-content {
     display: flex;
     width: 100%;
-    align-content: space-around;
-    max-width: 1000px;
-    padding: 0 2em;
     flex-wrap: wrap;
+    padding: 0 1em;
+    max-width: 830px;
 }
 .footer-content > div {
     min-width: 180px;
-    padding: 1em;
     flex: 1;
-}
-div.footer-content-main {
-    min-width: 233px;
-    flex: 1;
+    margin-bottom: 1em;
 }
 .footer-content h3 {
     margin: 0;  
@@ -843,9 +851,19 @@ div.footer-content-main {
     border-top: 1px solid #E7E7E7;
     width: 100%;
     text-align: center;
-    padding: 5px 1.5em;
+    padding: 3px 1em;
+    font-family: Montserrat-light;
+    font-size: 0.9em;
 }
 
+@media only screen and (max-width: 550px) {    
+    #footer .shadow-background {
+        flex-direction: column;
+    }
+    .socmed {
+        justify-content: flex-start;
+    }
+}
 /* PDF Viewer */
 #pdf {
     flex-direction: column;
