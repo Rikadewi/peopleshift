@@ -1027,23 +1027,7 @@ section#hours-27 {
 }
 .image-half {
     height: auto;
-    display: flex;
-    flex-direction: column;
-}
-.image-half > div {
-    flex:1;
-}
-#hours-27 .one {
-    background-image: url('../img/training/27-hour-1.jpg');
-}
-#hours-27 .two {
-    background-image: url('../img/training/27-hour-2.jpg');
-}
-#hours-27 .three {
-    background-image: url('../img/training/27-hour-3.jpg');
-}
-#hours-27 .four {
-    background-image: url('../img/training/27-hour-4.jpg');
+    background-image: url('../img/training/27-hour.jpg');
 }
 @media only screen and (max-width: 1300px) {
     .content-half h3 {
@@ -1097,9 +1081,6 @@ section#hours-27 {
     }
     .content-half {
         margin-top: 2em;
-    }
-    #hours-27 .two, #hours-27 .three, #hours-27 .four {
-        display: none;
     }
 }
 @media only screen and (max-width: 530px) {
