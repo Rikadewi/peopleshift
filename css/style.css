@@ -500,9 +500,8 @@ section#workflow {
     padding: 2vw 0vw;
 }
 #workflow > div {
-    /* width: 60vw; */
-    /* max-width: 800px; */
-    padding: 2em;
+    width: 60vw;
+    max-width: 800px;
 }
 #workflow b {
     color: #8C543B;
