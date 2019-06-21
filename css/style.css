@@ -138,7 +138,7 @@ div.end-menu, .change-menu div.end-menu {
 }
 .logo img {
     height: 4vh;
-    margin: -2px;
+    margin: -2px 0 -2px 1em;
 }
 .home-menu, .home-menu a {
     color: rgba(255,255,255,0.7);
